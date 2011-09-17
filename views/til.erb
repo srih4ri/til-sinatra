@@ -1,0 +1,5 @@
+<ul>
+<% @tiltweets.each do |t| %>
+    <li>@<%= t.from_user %> : <%= t.text %></li>
+<% end %>
+</ul>
